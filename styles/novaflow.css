@@ -46,3 +46,27 @@ nav .title{
     border-radius: 10px;
     padding: 12px 36px;
 }
+/* action styles */
+.action{
+    display: flex;
+    margin: 116px 140px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    padding: 62px 220px 23px 0px; 
+}
+.action-subtitle{
+    font-size: 24px;
+    color: #2e2d37;
+}
+.action-button{
+    margin-top: 23px;
+}
+.img{
+    border-radius: 45px;
+}
+/* productive section styles */
