@@ -46,6 +46,12 @@ nav .title{
     border-radius: 10px;
     padding: 12px 36px;
 }
+.btn-primary:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    background-color: #5b2d93d8;
+
+}
 /* action styles */
 .action{
     display: flex;
@@ -119,10 +125,59 @@ nav .title{
     background-color: #4d47ff30;
     border-radius: 14px;
     padding: 24px;
-    box-shadow: #ffffff59;
+     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);;
 }
 .review{
     display: flex;
-     align-items: center;
+    align-items: center;
     gap: 6px;
+    color: rgba(43, 42, 42, 0.555);
+}
+.feed-sub-title{
+    color: rgba(30, 30, 30, 0.715);
+}
+
+/* get in touch section */
+
+ .get-in-touch {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin: 92px 130px;
+    padding: 0px 71px;
+ }
+.touch-title{
+ font-size: 90px;
+ font-weight: bold;
+}
+form{
+    display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  max-width: 500px;
+}
+/* Footer */
+footer{
+    margin: 104px 350px;
+}
+.logo{
+    font-size: 80px;
+    font-weight: bolder;
+    color: #4E47FF;
+}
+.logo-links{
+    margin-top: 20px;
+   
+}
+.logo-links a{
+     margin-right: 20px;
+     text-decoration: none;
+     color: inherit;
+}
+.logo-links a:hover{
+    text-decoration: underline;
 }
